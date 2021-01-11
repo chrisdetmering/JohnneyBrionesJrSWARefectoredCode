@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url('./starWarsDeathStar.jpg'); */
 }
 
 code {

@@ -12,12 +12,10 @@ function App() {
     backgroundImage:`url(${star})`
   }
   return (
-    <div className="App" style={ imageStyle } >
-        <body >      
+    <div className="App" style={ imageStyle } >    
           <h1>Star Wars API</h1>
       <UserInput />
       <Table />
-      </body> 
     </div>
   );
 }
