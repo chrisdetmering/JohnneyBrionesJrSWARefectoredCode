@@ -1,12 +1,17 @@
 import React from 'react'
 
-function UserInput() {
+
+function UserInput(props) { 
     return (
-        <div> 
-        <input type='text' size="40" placeholder="Do. Or do not. There is no try. Who do you seek?"  name="userInput"/>
-        <button type='button' > Enter </button>
-        </div>
-    )}
+        <input 
+        onChange={props.onChange}
+        size="50"
+        placeholder="Who do you seek?"
+        name="userInput"
+       />
+       
+    )
+}
 
 
 export default UserInput
